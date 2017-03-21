@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<%s>
+			<version>0.0.1</version>
+		</%s>
+	</modules>
+	<global>
+		<blocks>
+            <class>%s_Block</class>
+		</blocks>
+		<helpers>
+			<class>%s_Helper</class>
+		</helpers>
+		<models>
+            <class>%s_Model</class>
+		</models>
+        <resources>
+            <setup>
+                <module>%s</module>
+            </setup>
+        </resources>
+	</global>
+</config>

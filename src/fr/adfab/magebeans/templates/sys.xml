@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Configuration file for MageBeans plugin
+-->
+
+<MageBeans>
+    <code>
+        <community>app/code/community</community>
+        <local>app/code/local</local>
+    </code>
+    <config>
+        <configFile>etc/config.xml</configFile>
+        <block>Block</block>
+        <model>Model</model>
+        <helper>Helper</Helper>
+    </config>
+</MageBeans>
